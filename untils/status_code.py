@@ -1,0 +1,12 @@
+USER_REGISTER_MOBILE = {'code': 1001, 'msg': '手机号不正确'}
+USER_REGISTER_PASSWORD = {'code': 1002, 'msg': '两次密码不一致'}
+USER_REGISTER_SUCCEED = {'code': 200, 'msg': '登录注册成功'}
+USER_REGISTER_MOBILE_EXIST = {'code': 1003, 'msg': '手机号已注册'}
+USER_REGISTER_CODE = {'code': 1004, 'msg': '验证码错误'}
+USER_REGISTER_MOBILE_PASSWORD_ERROR = {'code': 1005, 'msg': '账号密码错误'}
+USER_REGISTER_AVATAR = {'code': 200, 'msg': '上传成功'}
+USER_REGISTER_AVATAR_ERROR = {'code': 1006, 'msg': '上传失败，请继续'}
+OK = {'code': 200}
+NAME_ERROR = {'code': 1007, 'msg': '姓名不合规格'}
+ID_CARD_ERROR = {'code': 1008, 'msg': '身份证号不合规则'}
+ID_CARD_EXIST = {'code': 1009, 'msg': '身份证号已存在'}
